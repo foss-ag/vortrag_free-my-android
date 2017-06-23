@@ -17,14 +17,15 @@
 %Einbinden des Themes
 \input{Latex_Template/beamerthemeFOSSAG.sty}
 
-%Standard Angaben
-\title{Free my Android}
-\subtitle{Von einem Leben ohne Google}
+%Titelangaben
+\title{Free my Android - Step 1}
+\subtitle{Wie man sein Smartphone fit hält}
 
-\author[C. Parnitzke]{Christoph Parnitzke}
-\institute[FOSS AG]{Free and Open Source Software AG\\ Fakultät für Informatik}
+\author{Christoph Parnitzke}
+\institute[FOSS AG]{\textbf{F}ree and \textbf{O}pen \textbf{S}ource \textbf{S}oftware \textbf{AG}}
 
-\date{\today}
+\date{25. Juni 2017}
+
 
 %-----IMPLEMENTATION-----
 \begin{document}
@@ -43,9 +44,9 @@
 	\tableofcontents[currentsection, hideallsubsections]
 \end{frame}
 
-\input{Einleitung.tex}
+\input{Prologue.tex}
 
-%//end of section "Einleitung"
+%\\end of section "Prologue"
 
 \section{Das Android-Betriebssystem}
 
@@ -53,24 +54,44 @@
 	\tableofcontents[currentsection, hideallsubsections]
 \end{frame}
 
-\input{Theorie.tex}
+\input{Android_the_OS.tex}
 
-%\\end of section "Theorie"
+%\\end of section "Android_the_OS"
 
-\section{Derivate und Alternativen}
+\section{Android-Derivate}
 
 \begin{frame}{Inhaltsverzeichnis}
 	\tableofcontents[currentsection, hideallsubsections]
 \end{frame}
 
-%\input{Praxis.tex}
+\input{Derivates.tex}
 
-%\\end of section "Praxis"
+%\\end of section "Derivates"
 
-\section{Schluß}
+\section{Werkzeuge}
 
-%\input{Schluss.tex}
+\begin{frame}{Inhaltsverzeichnis}
+\tableofcontents[currentsection, hideallsubsections]
+\end{frame}
 
-%\\end of section "Schluß"
+\input{Utilities.tex}
+
+%\\end of section "Utilities"
+
+\section{How To Flash}
+
+\begin{frame}{Inhaltsverzeichnis}
+\tableofcontents[currentsection, hideallsubsections]
+\end{frame}
+
+\input{How_To_Flash.tex}
+
+%\\end of section "How_To_Flash"
+
+%\section{Fazit}
+
+%\input{Epilogue.tex}
+
+%\\end of section "Epilogue"
 
 \end{document}

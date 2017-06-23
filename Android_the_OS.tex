@@ -1,0 +1,26 @@
+\begin{frame}{Android ist Hardware-Spezifisch}
+	\begin{itemize}
+		\item Jedes System muss auf die gegebene Hardware des Gerätes angepasst werden
+		\begin{itemize}
+			\item Verhindert einen übergroßen Kernel
+			\item Spart Speicher
+			\item Erhöht Performance
+		\end{itemize}
+		\item Das verkompliziert das Anpassen von CustomROMs da die jeweiligen Geräte zum Testen benötigt werden
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Struktur der Software}
+	\begin{itemize}[<+->]
+		\item Android teilt sich in folgende Partitionen:
+		\begin{itemize}[<+->]
+			\item Bootloader 
+			\note{ Lädt den Kernel und das schlußendliche System }
+			\item Recovery
+			\note{ Die Recovery ist ein "Rettungssystem", welches erweiterte Funktionen auf dem Gerät zur Verfügung stellen kann. (Backups, zusätzliche Pakete installieren, etc.) }
+			\item System
+			\note{ Das Betriebssystem an sich }
+		\end{itemize}
+		\item Dazu kommen kleinere Partitionen welche weitere Systemfunktionen garantieren.
+	\end{itemize}
+\end{frame}

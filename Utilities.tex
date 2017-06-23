@@ -1,0 +1,41 @@
+\begin{frame}{Das Flashen - ADB}
+	\begin{itemize}[<+->]
+		\item Die \textbf{A}ndroid \textbf{D}ebug \textbf{B}ridge ist ein wichtiges Werkzeug
+		\item Sie ermöglicht das Arbeiten und Kommunizieren mit dem Android System über eine USB oder WLAN Verbindung
+		\item Mit ihr wird es möglich Dateien von und zum Rechner zu verschieben.
+		\item Die \textbf{ADB} wird insbesondere zum Übertragen neuer CustomROMs verwendet, es gibt aber auch weitere Möglichkeiten.
+		\begin{itemize}[<+->]
+			\item Übertragen und Installieren von Apps mit dem Rechner
+			\item Verwenden einer Shell vom Rechner aus
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Das Flashen - Fastboot}
+	\begin{itemize}[<+->]
+		\item Das \textbf{Fastboot}-Tool arbeitet eine Ebene tiefer im System
+		\item Statt mit dem laufenden Android OS zu kommunizieren arbeitet es direkt auf der Firmware des Geräts
+		\item Fastboot ermöglicht bei vielen Geräten das Entsperren des Bootloader-Sektors
+		\begin{itemize}[<+->]
+			\item Diese Funktion wird zum Flashen von Android-Derivaten benötigt
+		\end{itemize}
+		\item Außerdem können mit Fastboot direkt Images geflashed werden
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Das Flashen - Mehr braucht es nicht?}
+	\begin{itemize}
+		\item Die zuvor vorgestellten Tools reichen theoretisch zum Aufspielen alternativer Software aus
+		\item Leider haben in der Praxis viele Hersteller eigene Wege entwickelt ihre Bootloader vor Zugriff zu schützen oder ein Aufspielen anderer Software zu limitieren
+		\item Die vorgestellten Tools sind der von Google vorgesehene Weg, aber je nach Gerät braucht man andere Software
+		\item Der Verbreitung der Marke geschuldet gehen wir zusätzlich nur auf Samsung ein
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Das Flashen - Heimdall/Odin}
+	\begin{itemize}[<+->]
+		\item Heimdall und Odin sind von Samsung-Entwicklern erstellte Software, die das Dateisystem und die Partitionen verändern können
+		\item Während Odin mit einer grafischen Oberfläche (\textbf{GUI}) arbeitet, wird Heimdall in der Shell verwendet
+		\item Sie ersetzen Fastboot in ihrer Funktion
+	\end{itemize}
+\end{frame}
