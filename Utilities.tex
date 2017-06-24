@@ -24,18 +24,20 @@
 \end{frame}
 
 \begin{frame}{Das Flashen - Mehr braucht es nicht?}
-	\begin{itemize}
+	\begin{itemize}[<+->]
 		\item Die zuvor vorgestellten Tools reichen theoretisch zum Aufspielen alternativer Software aus
-		\item Leider haben in der Praxis viele Hersteller eigene Wege entwickelt ihre Bootloader vor Zugriff zu schützen oder ein Aufspielen anderer Software zu limitieren
-		\item Die vorgestellten Tools sind der von Google vorgesehene Weg, aber je nach Gerät braucht man andere Software
-		\item Der Verbreitung der Marke geschuldet gehen wir zusätzlich nur auf Samsung ein
+		\item Angepasste Android Versionen haben aber unter Umständen andere Schutzmechanismen
+		\note{ Leider haben in der Praxis viele Hersteller eigene Wege entwickelt ihre Bootloader vor Zugriff zu schützen oder ein Aufspielen anderer Software zu limitieren }
+		\item Daher braucht man je nach Gerät andere Software
+		\item Wir gehen zusätzlich nur auf Samsung ein
+		\note{ Der Verbreitung der Marke geschuldet gehen }
 	\end{itemize}
 \end{frame}
 
 \begin{frame}{Das Flashen - Heimdall/Odin}
 	\begin{itemize}[<+->]
-		\item Heimdall und Odin sind von Samsung-Entwicklern erstellte Software, die das Dateisystem und die Partitionen verändern können
-		\item Während Odin mit einer grafischen Oberfläche (\textbf{GUI}) arbeitet, wird Heimdall in der Shell verwendet
+		\item Heimdall und Odin sind für Samsung-Geräte erstellte Software
 		\item Sie ersetzen Fastboot in ihrer Funktion
+		\item Während Odin ein sog. Leak ist, wird Heimdall frei entwickelt.
 	\end{itemize}
 \end{frame}
