@@ -1,5 +1,5 @@
 \begin{frame}{Android ist Hardware-Spezifisch}
-	\begin{itemize}
+	\begin{itemize}[<+->]
 		\item Jedes System muss auf die gegebene Hardware des Gerätes angepasst werden
 		\begin{itemize}
 			\item Verhindert einen übergroßen Kernel
@@ -13,20 +13,20 @@
 \begin{frame}{Struktur der Software}
 	\begin{itemize}[<+->]
 		\item Android teilt sich in folgende Partitionen:
-		\begin{itemize}[<+->]
+		\begin{itemize}
 			\item Bootloader 
-			\note{ Lädt den Kernel und das schlußendliche System }
 			\item Recovery
-			\note{ Die Recovery ist ein "Rettungssystem", welches erweiterte Funktionen auf dem Gerät zur Verfügung stellen kann. (Backups, zusätzliche Pakete installieren, etc.) }
 			\item System
-			\note{ Das Betriebssystem an sich }
 			\item Data
-			\note{ Benutzerdatenpartition; Hier werden Kontakte, Nachrichten, Dauerhafte Appdaten und mehr gelagert }
 			\item SDCard / ExtSDCard
-			\note{ Zusätzlicher Speicher der dem Nutzer frei zur Verfügung steht. Hier werden heruntergeladene Dateien, Musik, Bilder und Videos und weiteres gespeichert. }
 			\item Cache
-			\note{ Partition zum Speichern temporärer Daten. Kann bedenkenlos geleert werden. }
 		\end{itemize}
 		\item Dazu kommen kleinere Partitionen welche weitere Systemfunktionen garantieren.
 	\end{itemize}
+	\pnote{ Bootloader: Lädt den Kernel und das schlussendliche System}
+	\pnote{ Recovery: Ist ein "Rettungssystem", welches erweiterte Funktionen auf dem Gerät zur Verfügung stellen kann. (Backups, zusätzliche Pakete installieren, etc.)}
+	\pnote{ System: Das Betriebssystem an sich}
+	\pnote{ Data: Benutzerdatenpartition; Hier werden Kontakte, Nachrichten, Dauerhafte Appdaten und mehr gelagert}
+	\pnote{ SDCard: Zusätzlicher Speicher der dem Nutzer frei zur Verfügung steht. Hier werden heruntergeladene Dateien, Musik, Bilder und Videos und weiteres gespeichert.}
+	\pnote{ Cache: Partition zum Speichern temporärer Daten. Kann bedenkenlos geleert werden.}
 \end{frame}

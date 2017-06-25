@@ -16,7 +16,7 @@
 		\item Das \textbf{Fastboot}-Tool arbeitet eine Ebene tiefer im System
 		\item Statt mit dem laufenden Android OS zu kommunizieren arbeitet es direkt auf der Firmware des Geräts
 		\item Fastboot ermöglicht bei vielen Geräten das Entsperren des Bootloader-Sektors
-		\begin{itemize}[<+->]
+		\begin{itemize}
 			\item Diese Funktion wird zum Flashen von Android-Derivaten benötigt
 		\end{itemize}
 		\item Außerdem können mit Fastboot direkt Images geflashed werden
@@ -27,11 +27,11 @@
 	\begin{itemize}[<+->]
 		\item Die zuvor vorgestellten Tools reichen theoretisch zum Aufspielen alternativer Software aus
 		\item Angepasste Android Versionen haben aber unter Umständen andere Schutzmechanismen
-		\note{ Leider haben in der Praxis viele Hersteller eigene Wege entwickelt ihre Bootloader vor Zugriff zu schützen oder ein Aufspielen anderer Software zu limitieren }
 		\item Daher braucht man je nach Gerät andere Software
 		\item Wir gehen zusätzlich nur auf Samsung ein
-		\note{ Der Verbreitung der Marke geschuldet gehen }
 	\end{itemize}
+	\pnote{ Leider haben in der Praxis viele Hersteller eigene Wege entwickelt ihre Bootloader vor Zugriff zu schützen oder ein Aufspielen anderer Software zu limitieren }
+	\pnote{ Samsung: Der Verbreitung der Marke geschuldet gehen }
 \end{frame}
 
 \begin{frame}{Das Flashen - Heimdall/Odin}
