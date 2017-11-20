@@ -1,4 +1,4 @@
-# Free my Android - Vortrag for the Google slaves
+# Free my Android
 ## Einleitung  
 * Werdegang von Android
 
